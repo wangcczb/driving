@@ -3,7 +3,13 @@ age = input('請問你的年齡: ')
 age = int(age)
 if country == '台灣':
 	if age >= 18:
-		print('你可以找駕照')
+		print('你可以考駕照')
 	else:
 		print('你還不能考駕照')
-		
+elif country == '美國':
+	if age >= 20:
+		print('你可以考駕照')
+	else:
+		print('你還不能考駕照')
+else:
+	print('查無此國家資料')
